@@ -9,7 +9,7 @@ export default function App() {
     <main>
       <section className="container">
         <h3>{people.length} Birthday's Today</h3>
-        <List people={people} setPeople={setPeople} />
+        <List people={people}/>
         <button onClick={() => setPeople([])}>Clear All</button>
       </section>
     </main>
